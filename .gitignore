@@ -1,0 +1,26 @@
+# 环境变量(里面有 API key,绝对不能上传!)
+.env
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# 模型文件(可能很大)
+*.pth
+*.pkl
+
+# OS
+.DS_Store
+Thumbs.db
